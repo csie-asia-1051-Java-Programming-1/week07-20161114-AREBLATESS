@@ -8,10 +8,10 @@ public class hw05 {
 		long n=scn.nextInt();
 		System.out.print(list(n));
 	}
-	public static long list(long v1){
+	public static String list(long v1){
 		long a=0;
 		if(v1==0){
-			return ;
+			return "";
 		}else{
 			a=v1%10;
 			v1=v1/10;
